@@ -21,7 +21,7 @@ Expander-SHA256 is a cutting-edge implementation designed for efficient zero-kno
 | **Proof Size**             | `191 KB`           |
 | **Instance Number (N)**    | `32,768`           |
 
-This implementation achieves significant efficiency improvements while maintaining proof correctness and security, adhering to the constraints of the hackathon.
+![image](https://github.com/user-attachments/assets/862faa7c-2411-4c7e-bc9e-dce535037df4)
 
 ---
 
@@ -63,6 +63,7 @@ Execute the `run.sh` script from the `proof-arena` directory:
 ```bash
 bash problems/sha256_hash/expander-sha256/run.sh
 ```
+![image](https://github.com/user-attachments/assets/27cb1a30-f502-4039-9178-1414e10b15df)
 
 This script:
 - Builds the required binaries.
@@ -218,6 +219,7 @@ problems/sha256_hash/SPJ/SPJ -cpu 16 -largestN 4096 \
   -verifier "target/release/expander-sha256 verify 16 256"
 ```
 
+![image](https://github.com/user-attachments/assets/9c2601ba-86f8-4389-8aed-9c47333fe35d)
 
 ---
 
@@ -289,6 +291,7 @@ Where:
 - **Proof Integrity**: The use of proofs ensures the validity of computations in potentially untrusted environments.
 
 ---
+![image](https://github.com/user-attachments/assets/3ccf1235-5c34-485e-8865-e105a838765a)
 
 
 ## 📜 Code Structure
@@ -340,6 +343,7 @@ Submission includes:
 Special thanks to the Polyhedra team, ProofArena platform, and contributors to the Expander framework for their support and resources.
 
 ---
+![image](https://github.com/user-attachments/assets/75968e8c-00f4-4fa2-ad18-faa56488f699)
 
 ##### (main.go):
 
