@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Expander",
+    "inventor": "Polyhedra Network",
+    "status": "Problem 2",
+    "type": "ZK Circuit Prover"
+  },
+  {
+    "name": "Gnark",
+    "inventor": "Consensys",
+    "status": "In Progress",
+    "type": "ZK Circuit Prover"
+  },
+  {
+    "name": "Halo2",
+    "inventor": "PSE",
+    "status": "Problems 1,2",
+    "type": "ZK Circuit Prover"
+  },
+  {
+    "name": "Plonky3",
+    "inventor": "Polygon",
+    "status": "Problems 1, 2, 3",
+    "type": "ZK Circuit Prover"
+  },
+  {
+    "name": "Stwo",
+    "inventor": "Starkware",
+    "status": "Problems 1, 3",
+    "type": "ZK Circuit Prover"
+  }
+]

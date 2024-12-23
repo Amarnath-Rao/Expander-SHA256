@@ -1,0 +1,37 @@
+{
+  "name": "proof-arena",
+  "private": true,
+  "scripts": {
+    "build:production": "node apps/web/scripts/syncProvers.js && turbo build",
+    "build:testing": "node apps/web/scripts/syncProvers.js && turbo build:testing",
+    "dev": "turbo dev",
+    "lint": "turbo lint",
+    "prettier": "turbo prettier",
+    "prepare": "husky",
+    "sync-provers": "node apps/web/scripts/syncProvers.js"
+  },
+  "dependencies": {
+    "antd": "^5.4.0",
+    "antd-style": "^3.4.4",
+    "openai": "^4.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-markdown": "^7.0.0",
+    "rehype-highlight": "^4.0.0",
+    "rehype-katex": "^3.0.0",
+    "remark-gfm": "^2.0.0",
+    "remark-math": "^3.0.0",
+    "react-chat-elements": "^12.0.10"
+  },
+  "devDependencies": {
+    "husky": "^9.0.11",
+    "lint-staged": "^15.2.5",
+    "prettier": "^3.2.5",
+    "turbo": "^2.0.11",
+    "typescript": "^5.4.5"
+  },
+  "packageManager": "pnpm@9.0.6",
+  "engines": {
+    "node": ">=18"
+  }
+}
